@@ -13,6 +13,10 @@ $ npm install
 ```
 
 ## Usage
+- Dans le ficher server.js modifiez l'adresse IP avec celle de votre machine, ligne 45
+```javascript
+const ipAddress = '192.168.0.27';
+```
 - Lancer le script
 ```console
 $ node server.js
