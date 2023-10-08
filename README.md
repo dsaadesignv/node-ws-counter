@@ -21,6 +21,8 @@ const ipAddress = '192.168.0.27';
 ```console
 $ node server.js
 ```
+- Ouvrir le navigateur à l'adresse `http://192.168.0.27:3000`
+- Connecter le smartphone au même réseau wifi que l'ordinateur qui a lancé le script, et ouvrir le navogateur à la même adresse `http://192.168.0.27:3000`
 
 ## Changer l'apparence
 - Modifier les styles définis entre les balise `<style>`et `</style>` du cichier `index.html`
