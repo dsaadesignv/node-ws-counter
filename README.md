@@ -13,16 +13,20 @@ $ npm install
 ```
 
 ## Usage
-- Dans le ficher server.js modifiez l'adresse IP avec celle de votre machine, ligne 45
+- Dans le ficher server.js modifier l'adresse IP avec celle de la machine utilisée, ligne 45
 ```javascript
 const ipAddress = '192.168.0.27';
+```
+- Modifier également l'adresse IP du serveur dans le fichier `index.html` à la ligne 46
+```javascript
+const socket = new WebSocket('ws://172.20.10.4:3000');
 ```
 - Lancer le script
 ```console
 $ node server.js
 ```
 - Ouvrir le navigateur à l'adresse `http://192.168.0.27:3000`
-- Connecter le smartphone au même réseau wifi que l'ordinateur qui a lancé le script, et ouvrir le navogateur à la même adresse `http://192.168.0.27:3000`
+- Connecter le smartphone au même réseau wifi que l'ordinateur qui a lancé le script, et ouvrir le navigateur à la même adresse `http://192.168.0.27:3000`
 
 ## Changer l'apparence
 - Modifier les styles définis entre les balise `<style>`et `</style>` du cichier `index.html`
