@@ -19,7 +19,7 @@ const ipAddress = '192.168.0.27';
 ```
 - Modifier également l'adresse IP du serveur dans le fichier `index.html` à la ligne 46
 ```javascript
-const socket = new WebSocket('ws://172.20.10.4:3000');
+const socket = new WebSocket('ws://192.168.0.27:3000');
 ```
 - Lancer le script
 ```console
